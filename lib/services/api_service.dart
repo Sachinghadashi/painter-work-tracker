@@ -58,7 +58,7 @@ import 'package:http/http.dart' as http;
 
 
 class ApiService {
-  static const String baseUrl = "http://10.80.219.233:5000"; // emulator
+  static const String baseUrl = "https://painter-backend-flask.onrender.com"; // emulator
 
   // Registration
   static Future<Map<String, dynamic>> register(
